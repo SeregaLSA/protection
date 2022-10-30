@@ -90,10 +90,47 @@
 }
 .img-1 {
     background-image: none;
-    position: relative;
-    left: 525px;
+    float: left;
 }
 
+.block_left {
+    width: 525px;
+    float: left;
+}
+.block_left h1 {
+    font-size: 48px;
+    color: #4A4A4A;
+}
+.block_left{
+    font-size: 18px;
+    color: #4A4A4A;
+}
+.block_left h1{
+    margin-top: 120px;
+}
+.block_left p {
+    margin-top: 20px;
+}
+
+.block-3 {
+    position: absolute;
+    width: 1068px;
+    height: 589px;
+    top: 680px;
+    left: 19.27%;
+}
+.img-3 {
+    width: 590px;
+    height: 590px;
+}
+.img-3:last-of-type{
+    right: 0px;
+}
+.block_right-3 {
+    width: 525px;
+    height: 590px;
+    float: left;
+}
 
 
 
